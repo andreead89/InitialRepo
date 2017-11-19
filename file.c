@@ -16,7 +16,7 @@ int main(int argc, char*argv[])
 
 	if(argc != 3)
 		exit(1);
-	
+	printf("Test1\n");
 	/*open the in file and create the out file*/
 
 	in_fd = open(argv[1], O_RDONLY);
