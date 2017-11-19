@@ -22,6 +22,7 @@ int main(int argc, char*argv[])
 	in_fd = open(argv[1], O_RDONLY);
 	if(in_fd < 0)
 		exit(2);
+	printf("Test 2\n");
 	out_fd = creat(argv[2], OUTPUT_MODE);
         if(out_fd < 0)
 		exit(3);
